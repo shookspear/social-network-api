@@ -12,7 +12,7 @@ This is an API for a social network web application where users can share their 
 ## Walkthrough Video
 Part 1: https://drive.google.com/file/d/1yojjpQOy-VNRHonf074mdbOgHwHANHWG/view
 
-Part 2: https://drive.google.com/file/d/1M0eVs9XHZQnsAUXNBDf3PTqtfRjjO8kl/view
+Part 2: https://drive.google.com/file/d/1QFpHRn8o1Cbj3QDnb58FcGA60fyb3JuK/view
 
 ## Contribution
 Made with ❤️ by Echeta
