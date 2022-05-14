@@ -1,6 +1,3 @@
-// import email validator package: npm install --save-dev validator
-//import { isEmail } from 'validator';
-
 const { Schema, model } = require('mongoose');
 
 
@@ -15,9 +12,13 @@ const UserSchema = new Schema(
     email: {
       type: String,
       required: true,
-      unique: true
-      //validate: { validator: isEmail , message: 'Invalid email.' }
-      // validate: [ isEmail, 'invalid email' ]
+      unique: true,
+      validate: {
+        validator: function(v) {
+            return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(v);
+        },
+        message: "Please enter a valid email"
+      }
     
     },
     thoughts: [
