@@ -52,12 +52,12 @@ const userController = {
   },
 
 
-  // delete a User
-  deleteUser({ params }, res) {
-    User.findOneAndDelete({ _id: params.id })
-      .then(dbUserData => res.json(dbUserData))
-      .catch(err => res.json(err));
-  },
+  // // delete a User
+  // deleteUser({ params }, res) {
+  //   User.findOneAndDelete({ _id: params.id })
+  //     .then(dbUserData => res.json(dbUserData))
+  //     .catch(err => res.json(err));
+  // },
 
 
   // delete a User
@@ -74,7 +74,6 @@ const userController = {
   },
 
     // add a Friend
-
     addFriend({ params }, res) {
       User.findOneAndUpdate(
             { _id: params.id },
