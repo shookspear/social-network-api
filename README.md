@@ -10,7 +10,8 @@ This is an API for a social network web application where users can share their 
 * Mongoose
 
 ## Walkthrough Video
-https://eo-budget-tracker.herokuapp.com/
+Part 1: https://drive.google.com/file/d/1yojjpQOy-VNRHonf074mdbOgHwHANHWG/view
+Part 2: 
 
 ## Contribution
 Made with ❤️ by Echeta
